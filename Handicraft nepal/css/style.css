@@ -1,0 +1,250 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul li{
+	list-style: none;
+	color: grey;
+}
+.options{
+	padding: 0 30px;
+}
+.options navbar-nav{
+	margin-left: 100px;
+}
+.menu{
+	margin-right: 430px;
+}
+.menu ul li{
+	padding: 0px 10px;
+}
+.container-fluid{
+	padding: 10px 100px;
+}
+.images{
+	margin-left: 55px;
+}
+.image{
+	margin-left: 250px;
+}
+.slider{
+	background-color: black;
+	width: 100%;
+}
+.category{
+	text-align: center;
+	padding: 10px 100px;
+}
+.category span{
+	border: 2px solid rgba(0,0,0,.1);
+	font-weight: bolder;
+	padding: 10px 10px;
+}
+.category .row{
+	padding: 10px 20px;
+}
+.incense{
+	text-align: center;
+	padding: 10px 100px;
+}
+.incense span{
+	border: 2px solid rgba(0,0,0,.1);
+	font-weight: bolder;
+	padding: 10px 10px;	
+}
+.incense .row{
+	padding: 10px 20px;
+}
+.manual{
+	text-align: center;
+}
+.manual span{
+	border: 2px solid rgba(0,0,0,.1);
+	font-weight: bold;
+}
+.manual p{
+	font-size: 20px;
+	font-weight: bolder;
+	padding: 10px 0;
+}
+.manual h3{
+	font-size: 15px;
+	font-weight: bold;
+}
+.best{
+	text-align: center;
+	padding: 10px 100px;
+}
+.best span{
+	border: 2px solid rgba(0,0,0,.1);
+	font-weight: bolder;
+	text-transform: uppercase;
+	padding: 10px 10px;
+}
+.best .row{
+	padding: 10px; 20px;
+}
+.review{
+	padding: 10px 50px;
+	text-align: center;
+}
+.review h3{
+	border: 2px solid rgba(0,0,0,.1);
+	font-weight: bolder;
+	font-size: 15px;
+}
+.review .row{
+	padding: 30px 30px 30px 30px;
+}
+.review .checked{
+	color: orange;
+}
+.base{
+	padding: 0px 100px;
+	background-color: lightgray;
+}
+.footer{
+	text-align: center;
+	background-color: lightgrey;
+}
+.menu ul li a{
+	color: black;
+}
+.base ul li a{
+	color: gray;
+}
+.content-header{
+  font-family: 'Oleo Script', cursive;
+  color:#fcc500;
+  font-size: 45px;
+}
+
+.section-content{
+  text-align: center; 
+
+}
+.cont{
+	text-align: center;
+}
+#contact{
+    
+    font-family: 'Teko', sans-serif;
+  padding-top: 60px;
+  width: 100%;
+  width: 100vw;
+  height: 550px;
+  background: #3a6186; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color : #fff;    
+}
+.contact-section{
+  padding-top: 40px;
+}
+.contact-section .col-md-6{
+  width: 50%;
+}
+
+.form-line{
+  border-right: 1px solid #B29999;
+}
+
+.form-group{
+  margin-top: 10px;
+}
+label{
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: normal;
+}
+.form-control{
+  font-size: 1.3em;
+  color: #080808;
+}
+textarea.form-control {
+    height: 135px;
+   /* margin-top: px;*/
+}
+
+.submit{
+  font-size: 1.1em;
+  float: right;
+  width: 150px;
+  background-color: transparent;
+  color: #fff;
+
+}
+.align-center {
+    text-align: center;
+}
+.hash-list {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px){
+    .hash-list.cols-3 > li:nth-last-child(-n+3) {
+        border-bottom: none;
+    }
+}
+@media (min-width: 768px){
+    .hash-list.cols-3 > li {
+        width: 33.3333%;
+    }
+}
+.hash-list > li {
+    display: block;
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.pad-30, .pad-30-all > * {
+    padding: 30px;
+}
+img {
+    border: 0;
+}
+.mgb-20, .mgb-20-all > * {
+    margin-bottom: 20px;
+}
+.wpx-100, .wpx-100-after:after {
+    width: 100px;
+}
+.img-round, .img-rel-round {
+    border-radius: 50%;
+}
+.padb-30, .padb-30-all > * {
+    padding-bottom: 30px;
+}
+
+.mgb-40, .mgb-40-all > * {
+    margin-bottom: 40px;
+}
+.align-center {
+    text-align: center;
+}
+[class*="line-b"] {
+    position: relative;
+    padding-bottom: 20px;
+    border-color: #E6AF2A;
+}
+.fg-text-d, .fg-hov-text-d:hover, .fg-active-text-d.active {
+    color: #222;
+}
+.font-cond-b {
+    font-weight: 700 !important;
+}
+.bg-grey {
+	background-color: lightgray;
+}
+.footer {
+	background-color: grey;
+	padding-top: 10px;
+}
+.footer p {
+	color: #d2d2d2;
+}
+#question{
+	padding: 10px 20px;
+}
